@@ -1,8 +1,21 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1220"><meta name="description" content="Seguimiento de los equipos de fútbol base de Valdemoro"><title>Fútbol Valdemoro</title><link rel="stylesheet" href="styles.css?v=20261101-3"></head>
-<body class="team-juvenil"><header class="hero"><div class="eyebrow">VALDEMORO · MADRID</div><h1>El fútbol, <span>nos une.</span></h1><p>Dos equipos. Toda la temporada en un solo lugar.</p><nav class="tabs"><button class="tab active" data-team="juvenil">Chicos · Juvenil</button><button class="tab" data-team="infantil">Chicas · Infantil F-7</button></nav></header>
-<main><section class="team-heading"><div><div class="eyebrow" id="competition">SEGUNDA JUVENIL · GRUPO 15</div><h2 id="team-name">C.F. Inter de Valdemoro 'D'</h2><p id="team-subtitle">Equipo masculino · Resumen de la liga</p></div><span class="status" id="data-status">Datos en directo no conectados</span></section>
-<section class="stats"><article><span>Posición</span><strong>—</strong></article><article><span>Partidos jugados</span><strong>—</strong></article><article><span>Puntos</span><strong>—</strong></article><article><span>Diferencia de goles</span><strong>—</strong></article></section>
-<section class="panel"><div class="panel-title"><div><div class="eyebrow">COMPETICIÓN</div><h3>Clasificación</h3></div><span class="muted">Pendiente de datos verificados</span></div><div class="table-wrap"><table><thead><tr><th>#</th><th>Equipo</th><th>PJ</th><th>G</th><th>E</th><th>P</th><th>GF</th><th>GC</th><th>Pts</th></tr></thead><tbody><tr><td colspan="9" class="empty">La clasificación aparecerá cuando conectemos una fuente pública de datos fiable.</td></tr></tbody></table></div><p class="note">No inventamos resultados ni posiciones. Indicaremos la fuente y la hora de la última actualización.</p></section>
-<section class="panel"><div class="panel-title"><div><div class="eyebrow">JORNADA</div><h3>Últimos resultados y próximos partidos</h3></div></div><div class="empty">Los resultados y próximos partidos aparecerán cuando conectemos una fuente verificada.</div></section>
-<section class="source"><strong>Fuente de la competición</strong><a id="source-link" href="https://www.rffm.es/" target="_blank" rel="noopener">Consultar RFFM</a><p>La verificación de la fuente oficial y la frecuencia de actualización están pendientes.</p></section></main><footer>Familias del fútbol de Valdemoro · <span id="year"></span></footer><script src="app.js?v=20261101-2"></script></body></html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101b2b">
+<meta name="description" content="Paneles de seguimiento de los equipos de fútbol de Valdemoro">
+<title>Fútbol Valdemoro · Paneles de equipos</title>
+<style>
+:root{color-scheme:dark;--bg:#101b2b;--panel:#19283a;--text:#f4f7fb;--muted:#aebdcd}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#101b2b,#172d43);color:var(--text);font:16px system-ui,-apple-system,Segoe UI,sans-serif;min-height:100vh}
+header,main,footer{width:min(900px,92%);margin:auto}header{padding:54px 0 24px}.eyebrow{letter-spacing:.16em;font-size:.75rem;color:var(--muted);font-weight:700}h1{font-size:clamp(2.2rem,8vw,4rem);line-height:1.03;margin:.55rem 0}header p{color:var(--muted);max-width:560px}
+main{display:grid;gap:18px;padding:20px 0 48px}.team{display:block;text-decoration:none;color:inherit;background:var(--panel);border:1px solid #34485e;border-radius:20px;padding:24px;transition:transform .15s,border-color .15s}.team:hover{transform:translateY(-2px);border-color:#8198b1}.team h2{margin:.55rem 0;font-size:1.45rem}.team p{margin:.3rem 0;color:var(--muted)}.team .go{display:inline-block;margin-top:18px;font-weight:750}.juvenil{border-left:7px solid #ff922e}.infantil{border-left:7px solid #72cfff}.notice{color:var(--muted);font-size:.9rem;line-height:1.5;padding:0 4px}footer{padding:0 0 30px;color:var(--muted);font-size:.8rem}
+</style></head>
+<body>
+<header><div class="eyebrow">VALDEMORO · MADRID · TEMPORADA 2026/27</div><h1>Fútbol<br>Valdemoro</h1><p>Elige el panel de tu equipo. Cada equipo tiene su propio enlace y sus estadísticas.</p></header>
+<main>
+<a class="team juvenil" href="./juvenil/"><div class="eyebrow">NARANJA · NEGRO</div><h2>Juvenil masculino · C.F. Inter de Valdemoro “D”</h2><p>Segunda Juvenil · Grupo 15</p><span class="go">Abrir panel Juvenil →</span></a>
+<a class="team infantil" href="./infantil/"><div class="eyebrow">AZUL CELESTE</div><h2>Infantil femenino · ESC. de Fut. Valdemoro</h2><p>Preferente Femenino Infantil F-7 · Grupo 6</p><span class="go">Abrir panel Infantil Femenino →</span></a>
+<p class="notice">Acceso para familias en modo consulta. Los datos y las estadísticas se gestionan exclusivamente por los administradores del proyecto. No hay formularios ni funciones de edición para visitantes.</p>
+</main><footer>Paneles informativos · Fútbol Valdemoro · 2026/27</footer>
+</body></html>
